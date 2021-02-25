@@ -4,13 +4,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tic Tac Toe</title>
+  <title>Tic Tac Toe by Chad</title>
   <link rel="stylesheet" href="./index.css" />
 </head>
 
 <body>
   <nav>
     <h1>Tic Tac Toe Board!</h1>
+    <button onClick="window.location.reload();">New Game</button>
   </nav>
   <main>
     <table>
@@ -30,10 +31,13 @@
         <td id="8" onclick="play(8)"></td>
       </tr>
     </table>
-    <span>Player </span>
-    <span id="player">X</span>
-    <span>'s turn</span>
+    <div>
+      <span>Player </span>
+      <span id="player">X</span>
+      <span>'s turn</span>
+    </div>
   </main>
+  
 </body>
-
+<script src='/Part1/index.js'></script>
 </html>
